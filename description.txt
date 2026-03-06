@@ -1,0 +1,52 @@
+We will create an annotated dataset of open-access clinical case report abstracts labeled for perceived diagnostic clarity from a lay reader’s perspective. 
+The goal is to study how clearly the diagnostic process is communicated in medical narratives, without requiring medical expertise from annotators.
+
+Each abstract will receive two categorical labels.
+
+To answer staff comments on AP1, we discuss labeling scheme in depth here. We added more details for the labels and lessened the scope by having annotators focus
+only on case description and conclusion.
+
+
+
+Label 1: Perceived Diagnostic Clarity
+
+Clear – The diagnosis is presented confidently and directly, with little or eveb no discussion of diagnostic difficulty or alternative explanations.
+
+Example: “A diagnosis of appendicitis was made based on imaging findings and the patient underwent surgery.” (There's no ambiguity at all)
+
+Somewhat uncertain – The abstract includes some ambiguity or competing possibilities, but the diagnostic story is still mostly resolved.
+
+Example: “The patient initially presented with symptoms suggestive of viral meningitis, but further testing supported a diagnosis of bacterial meningitis.”
+
+Highly uncertain – The abstract emphasizes diagnostic difficulty, such as misdiagnosis, prolonged diagnostic workup, or conflicting evidence.
+
+Example: “After several years of misdiagnosis and multiple inconclusive tests, the patient was ultimately diagnosed with primary angiitis of the central nervous system.”
+
+
+
+Label 2: Primary Source of Diagnostic Uncertainty
+
+Annotators will identify the main factor contributing to uncertainty in the narrative:
+
+1. Diagnostic revision or misdiagnosis
+
+2. Multiple competing diagnoses
+
+3. Conflicting or inconclusive tests
+
+4. Delayed recognition or prolonged diagnostic workup
+
+5. Unusual symptom presentation
+
+6. No clear source of uncertainty
+
+7. Other
+
+To reduce noise from background medical information, annotators will focus on the case description and conclusion portions of the abstract, 
+where the diagnostic narrative is typically described.
+
+Although certain phrases (e.g., “initially suspected,” “misdiagnosed,” “inconclusive”) may correlate with uncertainty, labels cannot be assigned using simple keyword rules. 
+Annotators must evaluate the overall tone and narrative context to determine how clearly the diagnostic process is communicated.
+
+Data will be sourced from the PubMed Central Open Access Subset, which contains scientific articles released under licenses that permit reuse and redistribution. 
+Only abstracts from articles with compatible licenses will be included, and the dataset will track PMCID identifiers and license information to ensure compliance.
